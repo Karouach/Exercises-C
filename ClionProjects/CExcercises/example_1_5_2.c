@@ -1,8 +1,8 @@
 /*
  ============================================================================
- Name        : example1_5_1.c
+ Name        : example_1_5_2.c
  Author      :
- Description : Copy Input to Output 1st Version (getchar - putchar)
+ Description : Count characters in input; 1st version
  ============================================================================
  */
 
@@ -12,11 +12,10 @@
 
 int main()
 {
-    int c;
-    c= getchar();
-    while( c!= EOF){
-        putchar(c);
-        c= getchar();
+    int numberChar = 0;
+    while (getchar() != EOF){
+        ++numberChar;
+        printf("Number Of Characters is: %d", numberChar);
     }
-
 }
+
