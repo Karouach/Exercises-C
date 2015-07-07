@@ -1,8 +1,8 @@
 /*
  ============================================================================
- Name        : ex1_6.c
+ Name        : ex1_7.c
  Author      :
- Description : Verify that the expression getchar() != EOF is 0 or 1.
+ Question    : Write a program to print the value of EOF.
  ============================================================================
  */
 
@@ -12,9 +12,6 @@
 
 int main()
 {
-    int c;
-    while((c = getchar()) != EOF) {
-        printf("c is: %d\n", c);
-    }printf("EOF is: %d\n", c);
-
+    printf("EOF is: %d\n", EOF);
 }
+
