@@ -1,8 +1,8 @@
 /*
  ============================================================================
- Name        : example1_5_2.c
+ Name        : ex1_6.c
  Author      :
- Description : Copy Input to Output 2nd version (getchar - putchar)
+ Description : Verify that the expression getchar() != EOF is 0 or 1.
  ============================================================================
  */
 
@@ -14,7 +14,7 @@ int main()
 {
     int c;
     while((c = getchar()) != EOF) {
-        putchar(c);
-    }
+        printf("c is: %d\n", c);
+    }printf("EOF is: %d\n", c);
 
 }
