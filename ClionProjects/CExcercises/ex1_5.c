@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ex1_4.c
+ Name        : ex1_5.c
  Author      :
  Question    : Write a program to print the corresponding
                Celsius to Fahrenheit table.
